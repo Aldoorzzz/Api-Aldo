@@ -1,0 +1,6 @@
+@Api_Aldo_HostAddress = http://localhost:5262
+
+GET {{Api_Aldo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
