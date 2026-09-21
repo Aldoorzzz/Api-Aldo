@@ -1,4 +1,4 @@
-﻿namespace Api_Aldo.Models
+﻿namespace RickMortyWeb.Models
 {
     public class Episode
     {
@@ -8,6 +8,6 @@
 
         public string Air_Date { get; set; }
 
-        public string Episodie { get; set; }
+        public string Episodee { get; set; }
     }
 }

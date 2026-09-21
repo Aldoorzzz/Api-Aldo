@@ -14,6 +14,14 @@ namespace Api_Aldo.Controllers
             _episodeService = episodeService;
         }
 
+        [HttpGet]
+        public async Task<IActionResult> GetEpisodes()
+        {
+            var episodes = await _episodeService.GetEpisodes();
+
+            return Ok(episodes);
+        }
+
         [HttpGet("{id}")]
         public async Task<IActionResult> GetEpisode(int id)
         {
